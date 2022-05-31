@@ -10,13 +10,13 @@ pipeline {
         
         stage('Tests') {
             steps {
-                echo 'Hello World'
+                echo 'Effectue les tests'
             }
         }
         
         stage('Deploy') {
             steps {
-                echo 'Hello World'
+                echo 'Effectuer le déploiement en production'
             }
         }
     }
